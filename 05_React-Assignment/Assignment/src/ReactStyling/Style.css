@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none !important;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+li {
+  padding-top: 10px;
+  align-items: center;
+}
+ul li a {
+  color: black;
+  font-size: 17px;
+}
+ul li a:hover {
+  color: brown;
+}
+
+.Navbar a{
+  color: black;
+  padding-right: 15px;
+  font-size: 16px;
+}
+.carousel-item img{
+  height: 500px;
+}
